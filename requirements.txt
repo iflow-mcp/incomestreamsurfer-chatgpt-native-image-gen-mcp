@@ -1,0 +1,5 @@
+openai>=1.0.0
+httpx>=0.27.0
+# Add mcp-server-sdk if it's a separate installable package, otherwise assume it's provided by the environment
+# Assuming fastmcp comes from a library like mcp-server-sdk, otherwise adjust as needed.
+# If fastmcp is part of the environment, no need to list it here.
