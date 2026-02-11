@@ -1,0 +1,18 @@
+[project]
+name = "iflow-mcp_incomestreamsurfer-chatgpt-native-image-gen-mcp"
+version = "0.1.0"
+description = "OpenAI Image Generation MCP Server - provides tools for generating and editing images using OpenAI's gpt-image-1 model"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.0.0",
+    "httpx>=0.27.0",
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+openai-image-mcp = "openai_image_mcp:mcp"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build"
