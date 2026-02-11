@@ -15,4 +15,4 @@ openai-image-mcp = "openai_image_mcp:mcp"
 
 [build-system]
 requires = ["setuptools"]
-build-backend = "setuptools.build"
+build-backend = "setuptools.build_meta"
