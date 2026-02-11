@@ -11,8 +11,8 @@ dependencies = [
 ]
 
 [project.scripts]
-openai-image-mcp = "openai_image_mcp:mcp"
+openai-image-mcp = "openai_image_mcp:main"
 
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"

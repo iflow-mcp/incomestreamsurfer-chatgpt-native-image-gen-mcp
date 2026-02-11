@@ -340,3 +340,7 @@ if __name__ == "__main__":
         logging.exception("An unexpected error occurred while running the server.")
     finally:
         logging.info("OpenAI Image Generation MCP server shut down.")
+
+def main():
+    """Entry point for the MCP server."""
+    mcp.run()
